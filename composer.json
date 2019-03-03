@@ -1,0 +1,19 @@
+{
+    "name": "lyw007/package-test",
+    "description": "This is a package. Just for test. Use carefully.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lyw007",
+            "email": "1031251379@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Finlab\\Packages\\": "src/"
+        }
+    }
+}
